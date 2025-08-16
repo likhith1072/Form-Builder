@@ -13,7 +13,7 @@ mongoose.connect(process.env.MONGO).then(()=>{console.log('Connected to mongoDB'
 const __dirname = path.resolve();
 const app=express();
 const origin = process.env.NODE_ENV === 'production'
-  ? 'https://blogging-platform-with-dashboard.onrender.com'
+  ? 'https://form-builder-1-zxqi.onrender.com'
   : 'http://localhost:5173';
 
 app.use(cors({
