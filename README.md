@@ -35,38 +35,37 @@ Attach images to questions (or MCQs inside comprehension).
 
 📂 Project Structure
 
-Form-Builder/
-
+Form-Builder/   
 ├── api/                  # Backend (Node.js + Express + MongoDB)
-
+|   |
 │   ├── controllers/      # Business logic for handling requests
-
+|   |
 │   ├── models/           # Mongoose schemas for DB collections
-
+|   |
 │   ├── routes/           # API route definitions
-
+|   |
 │   └── index.js          # Entry point to start Express server
-
+|
 │
 ├── client/               # Frontend (React + Vite)
-
+|   |
 │   ├── public/           # Static assets (images, icons, favicon)
-
+|   |
 │   ├── src/
 │   │   ├── components/   # Reusable UI components (buttons, modals, forms)
-
+|   |   |
 │   │   ├── pages/        # Full-page components (Dashboard, FormBuilder, Login)
-
+|   |   |
 │   │   ├── App.jsx       # Main React app component with routing
-
+|   |   |
 │   │   └── firebase.js   # Firebase configuration (auth, storage, etc.)
-
+|   |
 │   ├── index.html        # Main HTML file for Vite
-
+|   |
 │   └── vite.config.js    # Vite build & dev configuration
-
+|   |
 │   └── package.json      # Frontend dependencies
-
+|
 │
 ├── README.md             # Project overview and setup instructions
 
