@@ -36,24 +36,26 @@ Attach images to questions (or MCQs inside comprehension).
 📂 Project Structure
 
 Form-Builder/
-│── api/                 # Backend (Node.js + Express + MongoDB)
-│   ├── controllers/     # Business logic
-│   ├── models/          # Mongoose schemas
-│   ├── routes/          # API endpoints
-│   └── index.js         # Entry point
+├── api/                  # Backend (Node.js + Express + MongoDB)
+│   ├── controllers/      # Business logic for handling requests
+│   ├── models/           # Mongoose schemas for DB collections
+│   ├── routes/           # API route definitions
+│   └── index.js          # Entry point to start Express server
 │
-│── client/              # Frontend (React + Vite)
-│   ├── public/          # Static assets
-│   ├── src/             
-│   │   ├── components/  # Reusable UI components
-│   │   ├── pages/       # Application pages
-│   │   ├── App.jsx      # Main app
-│   │   └── firebase.js  # Firebase config
-│   ├── index.html
-│   └── vite.config.js
-│   |__ package.json   (frontend package.json)
-│── README.md
-│── package.json         (Backend package.json)
+├── client/               # Frontend (React + Vite)
+│   ├── public/           # Static assets (images, icons, favicon)
+│   ├── src/
+│   │   ├── components/   # Reusable UI components (buttons, modals, forms)
+│   │   ├── pages/        # Full-page components (Dashboard, FormBuilder, Login)
+│   │   ├── App.jsx       # Main React app component with routing
+│   │   └── firebase.js   # Firebase configuration (auth, storage, etc.)
+│   ├── index.html        # Main HTML file for Vite
+│   └── vite.config.js    # Vite build & dev configuration
+│   └── package.json      # Frontend dependencies
+│
+├── README.md             # Project overview and setup instructions
+└── package.json          # Backend dependencies
+
 
 
 🛠️ Tech Stack
