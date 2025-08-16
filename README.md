@@ -36,7 +36,9 @@ Attach images to questions (or MCQs inside comprehension).
 📂 Project Structure
 
 Form-Builder/
+
 ├── api/                  # Backend (Node.js + Express + MongoDB)
+
 │   ├── controllers/      # Business logic for handling requests
 │   ├── models/           # Mongoose schemas for DB collections
 │   ├── routes/           # API route definitions
