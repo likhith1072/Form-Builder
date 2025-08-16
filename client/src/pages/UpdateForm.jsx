@@ -942,10 +942,6 @@ export default function CreateForm() {
         </button>
       </div>
 
-      <h2 className="text-xl font-bold mt-8 mb-2">Preview JSON</h2>
-      <pre className="bg-gray-100 p-4 rounded text-sm overflow-auto">
-        {JSON.stringify(form, null, 2)}
-      </pre>
     </div>
   );
 }
